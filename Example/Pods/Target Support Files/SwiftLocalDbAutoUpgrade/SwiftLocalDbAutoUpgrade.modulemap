@@ -1,0 +1,6 @@
+framework module SwiftLocalDbAutoUpgrade {
+  umbrella header "SwiftLocalDbAutoUpgrade-umbrella.h"
+
+  export *
+  module * { export * }
+}

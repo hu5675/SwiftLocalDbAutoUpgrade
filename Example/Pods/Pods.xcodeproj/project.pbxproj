@@ -1,0 +1,1290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		021D6C85E81A69A6BCAE70C21436EA3E /* BuiltInBasicType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825D91292F66442884ABED8762BB5CDD /* BuiltInBasicType.swift */; };
+		02D3A06037603557B0DC297D152A5A2F /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE1CFA4EDCC8D1CFA902756E4DD9919 /* DataTransform.swift */; };
+		042E71A79BF92484D29C1D86BE596FC2 /* ZHRDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C267828CF5496322A40D90888A1EB8E /* ZHRDB.swift */; };
+		0A1BD30AD9DDAB732D93AD60DA3B3BA1 /* BuiltInBridgeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712C2FDEE5B3637ADE5C1638FA569B01 /* BuiltInBridgeType.swift */; };
+		145EA8D15BA928C9BD3B362264F45B31 /* HexColorTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = B885D1849903D27B38B46306CC4A36AE /* HexColorTransform.swift */; };
+		14CBA924E36D7C9F85395A5E3B3EBA05 /* PointerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F840DC193E37EF37FBAF9D4215252 /* PointerType.swift */; };
+		1A3855F91A25D886A9F5006F18D9C0FE /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B4BF63853B597C572AD6AE087804B1 /* FMDB.framework */; };
+		1D36F6D548E58012989CDF6AE95C4C51 /* ZHRUpgradeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF02E78DDB870B7088BEAEC40592424C /* ZHRUpgradeManager.swift */; };
+		20E96E9B8BDE725BF6E1585B640EFA3C /* Pods-SwiftLocalDbAutoUpgrade_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C5E1FB71AA4359DE86DB6D95843917 /* Pods-SwiftLocalDbAutoUpgrade_Tests-dummy.m */; };
+		22554065FA07F1BFE5308A685394CB12 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B4981E7E4A7CF0C45A5066291D4EC5 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23C92743D0D2154080836B58896172C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9EA37D04C9D55647CFDA324CCB7D3C /* Foundation.framework */; };
+		244470CB974C823AE034C2B28012F0B2 /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831C6C7CC756499DC0BE2C80E0668C81 /* DateFormatterTransform.swift */; };
+		2831BCD46C574710427B6DC8FA388737 /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922901E084CBE6FE10F134A2F716152A /* NSDecimalNumberTransform.swift */; };
+		2DEB5250C87B29F26B5744C8DD5F1977 /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F52D08F1B0B2116885F065BE2992B6 /* CustomDateFormatTransform.swift */; };
+		2E0597CC1C286E122389BE16AF6B6C28 /* ReflectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0D762958622B211524966AAF958A95 /* ReflectionHelper.swift */; };
+		2E2B20A4F37B38CD5C524A02D26C0563 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9EA37D04C9D55647CFDA324CCB7D3C /* Foundation.framework */; };
+		31CB772B4761F0EF70E974B909CC8E24 /* SwiftLocalDbAutoUpgrade-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A9B88E74A98A6BCD9AFFA489BFA3E1B /* SwiftLocalDbAutoUpgrade-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36BEE92B72672D86E1C2E7E6EC63E561 /* ZHRTableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989450B91D86323BAB9FA02C2AFDF854 /* ZHRTableModel.swift */; };
+		37F097E2269EF1BD238AD7449D796445 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF8F2E280FC47686E7538A254AD8AC /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3857FA2B4BA148BA85E93B4CCB88EB5A /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812A7260159FE9D1713C90AD8D2E66F1 /* TransformOf.swift */; };
+		38F94020F18E7E473F0B8194A32A4522 /* OtherExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210412394EAFB4263CEB6429D4C1F943 /* OtherExtension.swift */; };
+		3BED3157B56D9A76AC8BD726F4FF03CB /* Pods-SwiftLocalDbAutoUpgrade_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA7DB8DE3AAECEDC67D78AB47B29446 /* Pods-SwiftLocalDbAutoUpgrade_Example-dummy.m */; };
+		3E43906B70EB01C06F3AE17008B853B9 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 12DB27120EC120459E99EE475E5E7FB5 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F7D320528F306187FB12746EF258951 /* Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52218D42856C36D1B5C8DBF722856DD /* Serializer.swift */; };
+		47A6F2B2CBCD6B219E142956210D3504 /* PropertyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8919591BCCECAD65E4351A4DCA04BF1D /* PropertyInfo.swift */; };
+		4A1E817ED7330692AE151BEADE1C9075 /* ZHRPlistHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A4C78515B409F88351C127CD86F7A6 /* ZHRPlistHelper.swift */; };
+		5E9D11BEACC080376EA6F57C6167B34A /* HandyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A987C08FFB0AFA1EC471A9F4B3EFADC /* HandyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D73AEC82C2BAA112949211D3DBFF4E /* ZHRPathHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27CA393879015B29CEABEB7048E5CDF /* ZHRPathHelper.swift */; };
+		68A052920D1662B0030CFD2B70EDBE87 /* Deserializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B68A090AED1009FD968AEC3810AF452 /* Deserializer.swift */; };
+		72563ADE99DC9E753B27D48B16AA3654 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9EA37D04C9D55647CFDA324CCB7D3C /* Foundation.framework */; };
+		747DCF82C0695A667944D494740212BC /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF143F917DE49057CD43EE269E4050 /* ISO8601DateTransform.swift */; };
+		7724ED40406563DDA3FCBC9E0B41DD8F /* Export.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173D679CE55842A4C0BF84950E4C5164 /* Export.swift */; };
+		7C73B5445B40C1672EFE997C621402E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9EA37D04C9D55647CFDA324CCB7D3C /* Foundation.framework */; };
+		81DD05230F6848CB644B4D56BF5CC890 /* NominalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ECFE74990006C7E33637C3B2A028AB /* NominalType.swift */; };
+		83940F7982A665218D4FBF7635775C62 /* HandyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6316B32A5F17FBAE432279DCF30D304 /* HandyJSON.framework */; };
+		84BA709E0C563EB1B2DAF3BADB772F2A /* AnyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003A9F172EA00FA5BB0BA0BEAC33D353 /* AnyExtensions.swift */; };
+		87ECA447DB887426665260651B7F147E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = BC50A32C01248953A9904AF49868B604 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		895952B7EE442E03D667D9565D8C84F4 /* HandyJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 8555FB7DE619686209C655BB34ACA38F /* HandyJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90E4890A44BE5969FF55384D952D5B17 /* Pods-SwiftLocalDbAutoUpgrade_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9088586E055F4492A1F30FD817F1F08E /* Pods-SwiftLocalDbAutoUpgrade_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92CDECC7E52F5DBBA6AF1D7DDDB4064B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9EA37D04C9D55647CFDA324CCB7D3C /* Foundation.framework */; };
+		94D33EA48767242A77874B217DDF1ECD /* ExtendCustomBasicType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429D953ABE4DBCBF8C50C16C080081A8 /* ExtendCustomBasicType.swift */; };
+		94DEA3017AB2525A3C1BF49CEF867BE1 /* Pods-SwiftLocalDbAutoUpgrade_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 482BF0BB7059CFA2CAC623E938A6B8A9 /* Pods-SwiftLocalDbAutoUpgrade_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96E70B43FC04BC99AED1BBD4FB1D7581 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47298875B9139DB9479D781B768CD091 /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8D84996694C541CD3434386E0A081A /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4A1621C9670F9B2533FEC732C4A1E1 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C11A290C9C5866A185A54F1EC04E2BB /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6608F61619486434C4D0E16C3FFD1D /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A06810AF6D7439DA88F7E1D6A73650EC /* String+ZHR.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE8BC5DEB46717B202EA63CE6080E01 /* String+ZHR.swift */; };
+		A1B5D80A8998311B8C9043E6942925E6 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C77C573FECF3B4A962944BE897F37163 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A548833BE5FAD40830428F36E77D0F52 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A5895190384BDBB97C139F24C0B6783 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A5F48171486478562F0F19A660ED96 /* HelpingMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3A34767217B91F32FCCBBA10B8C38F /* HelpingMapper.swift */; };
+		B4CF06AFBD2A90D2F0AE4308A37EEEED /* Metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD0E0BA1BDC4AB07D920CE2191895B3 /* Metadata.swift */; };
+		B84445D00EBDB3D909469F1AE4531C82 /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1898AAAEA26D10D0D77FB4770EB034 /* URLTransform.swift */; };
+		C23DCC759D062F56019848BAA9311441 /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76237E6C14378F1B84043815868FB545 /* EnumTransform.swift */; };
+		C26CB3A89ED18B9165DE49242AE42C82 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874754D418D41C1939F3BB16BA0ABECD /* Configuration.swift */; };
+		C605A44DF96E7FCACF7D6E37B62F795D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CA7E68DA164898440C1D067107A351 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C69DDAAEBACC566CD4B00E7ED49BB047 /* SwiftLocalDbAutoUpgrade-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BDA1621D5DD5E7494569A3EC0EFD11 /* SwiftLocalDbAutoUpgrade-dummy.m */; };
+		C72B87D543871D8701EFA85F4909283D /* ZHRDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54B394EC66B0EDC868BBB65DE710916 /* ZHRDBManager.swift */; };
+		CCB74062CE0F4B8E5B7483599BC398DA /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 88FDF910AA586524C32E9BA63271B0FD /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D16E571F2CBC6CFAF015461E218B580E /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E90ADC3FF1EA75C3C66FA5905896757 /* TransformType.swift */; };
+		D2D51A84C36B46BA1E9658EEEB36D706 /* ZHRFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D84274098F7AC2872C0B707CC6A848E /* ZHRFieldModel.swift */; };
+		D42094FCFFE2545CEBCDE39191DE67CF /* ExtendCustomModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEE9C256A3D13BCAC0379D885D9954 /* ExtendCustomModelType.swift */; };
+		D5991941DC41DDDDDACAE0B5D47A4639 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF4CAFB6D1E3B13146636236295374 /* FMDB-dummy.m */; };
+		DACE12E1479FE4F88D8B427846C5D7E4 /* EnumType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740C9E0CD0A6BF5B6E4D2D4DBEA8B7DB /* EnumType.swift */; };
+		E637580645881306743C135F50EEBDA1 /* Transformable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6143A5F6D14144EBC2344D4E93F89964 /* Transformable.swift */; };
+		EAA714197FC4B5125930E7FF28A8A71C /* Measuable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295418602AFD0116DC74C82E7859DE7 /* Measuable.swift */; };
+		EEAABF9F5D1751371149959C801D0BFB /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9299812B82EAA281EFAFC994E046026A /* Properties.swift */; };
+		F11FAB91014130EE233A3429439D38D7 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F31A5F1B6007CF90D135CE58DBBBC7 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F17038401495DBF46EBF17DAF51B4C6C /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7893FA564FA4D74AAC8264455C2A2A5 /* DateTransform.swift */; };
+		FB1319C5A8ED8E5A9A523D6D325D09AD /* HandyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE256147E4D33F15E77502CA0DA14C0 /* HandyJSON-dummy.m */; };
+		FC63C01D7951D40756AFAAE788BE8013 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1031EE484EB776ECFFA1579D23A4C6D /* Logger.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21A99C2FFE4EE0AF12D2B965F51FAD75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 251BAD17812F7EBF6532EACF66F941C3;
+			remoteInfo = FMDB;
+		};
+		3ED5B19637995B26F161A70F5C47D493 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1465651EBBC44AD3276DDE2476CDA450;
+			remoteInfo = HandyJSON;
+		};
+		4B95C9169B8989830973B7F73D691067 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 251BAD17812F7EBF6532EACF66F941C3;
+			remoteInfo = FMDB;
+		};
+		BD2FBAB8BE2F5550D5EB36D89A54CCE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1465651EBBC44AD3276DDE2476CDA450;
+			remoteInfo = HandyJSON;
+		};
+		DE305D04A1E25C7EBC3D7C34874B014F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A59C304C038F030F5DB92359E8FE609D;
+			remoteInfo = SwiftLocalDbAutoUpgrade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003A9F172EA00FA5BB0BA0BEAC33D353 /* AnyExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyExtensions.swift; path = Source/AnyExtensions.swift; sourceTree = "<group>"; };
+		0295418602AFD0116DC74C82E7859DE7 /* Measuable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Measuable.swift; path = Source/Measuable.swift; sourceTree = "<group>"; };
+		03AADA3DC42664F69E4D544879865107 /* Pods-SwiftLocalDbAutoUpgrade_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftLocalDbAutoUpgrade_Example-frameworks.sh"; sourceTree = "<group>"; };
+		06B4BF63853B597C572AD6AE087804B1 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BCF4CAFB6D1E3B13146636236295374 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		0C5220D0663321D7AD232B1CD7D49051 /* Pods-SwiftLocalDbAutoUpgrade_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftLocalDbAutoUpgrade_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C9C28350FA6BD7886967D26B00F5FF8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DDF8F2E280FC47686E7538A254AD8AC /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		12DB27120EC120459E99EE475E5E7FB5 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		173D679CE55842A4C0BF84950E4C5164 /* Export.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Export.swift; path = Source/Export.swift; sourceTree = "<group>"; };
+		17BE1150087CBEF9CA5F5E44C5797521 /* SwiftLocalDbAutoUpgrade.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftLocalDbAutoUpgrade.modulemap; sourceTree = "<group>"; };
+		1A5895190384BDBB97C139F24C0B6783 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		210412394EAFB4263CEB6429D4C1F943 /* OtherExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OtherExtension.swift; path = Source/OtherExtension.swift; sourceTree = "<group>"; };
+		25A0B450632B30CAA03EAC130E39DF49 /* HandyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HandyJSON.xcconfig; sourceTree = "<group>"; };
+		28C5E1FB71AA4359DE86DB6D95843917 /* Pods-SwiftLocalDbAutoUpgrade_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftLocalDbAutoUpgrade_Tests-dummy.m"; sourceTree = "<group>"; };
+		2969479B138406AFFB75F8B97AEA4B9A /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		2A987C08FFB0AFA1EC471A9F4B3EFADC /* HandyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HandyJSON-umbrella.h"; sourceTree = "<group>"; };
+		30F31A5F1B6007CF90D135CE58DBBBC7 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		33CA7E68DA164898440C1D067107A351 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		3C889BC14AEE98795B24D37C279860F5 /* Pods-SwiftLocalDbAutoUpgrade_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftLocalDbAutoUpgrade_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		429D953ABE4DBCBF8C50C16C080081A8 /* ExtendCustomBasicType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtendCustomBasicType.swift; path = Source/ExtendCustomBasicType.swift; sourceTree = "<group>"; };
+		442C5A38E4FDEE4D3EA72CCCF62DD3B2 /* SwiftLocalDbAutoUpgrade-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftLocalDbAutoUpgrade-prefix.pch"; sourceTree = "<group>"; };
+		47298875B9139DB9479D781B768CD091 /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
+		482BF0BB7059CFA2CAC623E938A6B8A9 /* Pods-SwiftLocalDbAutoUpgrade_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftLocalDbAutoUpgrade_Example-umbrella.h"; sourceTree = "<group>"; };
+		4E7B3190035C884E9DA1F56EC46DA100 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9B88E74A98A6BCD9AFFA489BFA3E1B /* SwiftLocalDbAutoUpgrade-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftLocalDbAutoUpgrade-umbrella.h"; sourceTree = "<group>"; };
+		5C7C4C2AB76CA91D44D7209FADDE8276 /* Pods-SwiftLocalDbAutoUpgrade_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftLocalDbAutoUpgrade_Example-resources.sh"; sourceTree = "<group>"; };
+		6143A5F6D14144EBC2344D4E93F89964 /* Transformable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transformable.swift; path = Source/Transformable.swift; sourceTree = "<group>"; };
+		68C71AA73A476F665460AB3A2ED74EA1 /* HandyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HandyJSON.modulemap; sourceTree = "<group>"; };
+		6FA7DB8DE3AAECEDC67D78AB47B29446 /* Pods-SwiftLocalDbAutoUpgrade_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftLocalDbAutoUpgrade_Example-dummy.m"; sourceTree = "<group>"; };
+		6FBEE9C256A3D13BCAC0379D885D9954 /* ExtendCustomModelType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtendCustomModelType.swift; path = Source/ExtendCustomModelType.swift; sourceTree = "<group>"; };
+		70ED9DE2F9A88F39BA3BFB2DE762C9BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		712C2FDEE5B3637ADE5C1638FA569B01 /* BuiltInBridgeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BuiltInBridgeType.swift; path = Source/BuiltInBridgeType.swift; sourceTree = "<group>"; };
+		735018FDC544EA7E63994D228C9C773E /* Pods-SwiftLocalDbAutoUpgrade_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftLocalDbAutoUpgrade_Example.modulemap"; sourceTree = "<group>"; };
+		740C9E0CD0A6BF5B6E4D2D4DBEA8B7DB /* EnumType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumType.swift; path = Source/EnumType.swift; sourceTree = "<group>"; };
+		76237E6C14378F1B84043815868FB545 /* EnumTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumTransform.swift; path = Source/EnumTransform.swift; sourceTree = "<group>"; };
+		7AE256147E4D33F15E77502CA0DA14C0 /* HandyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HandyJSON-dummy.m"; sourceTree = "<group>"; };
+		7B6608F61619486434C4D0E16C3FFD1D /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		7D84274098F7AC2872C0B707CC6A848E /* ZHRFieldModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZHRFieldModel.swift; path = SwiftLocalDbAutoUpgrade/Classes/ZHRFieldModel.swift; sourceTree = "<group>"; };
+		7DE1CFA4EDCC8D1CFA902756E4DD9919 /* DataTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataTransform.swift; path = Source/DataTransform.swift; sourceTree = "<group>"; };
+		812A7260159FE9D1713C90AD8D2E66F1 /* TransformOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOf.swift; path = Source/TransformOf.swift; sourceTree = "<group>"; };
+		825D91292F66442884ABED8762BB5CDD /* BuiltInBasicType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BuiltInBasicType.swift; path = Source/BuiltInBasicType.swift; sourceTree = "<group>"; };
+		831C6C7CC756499DC0BE2C80E0668C81 /* DateFormatterTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormatterTransform.swift; path = Source/DateFormatterTransform.swift; sourceTree = "<group>"; };
+		83BDA1621D5DD5E7494569A3EC0EFD11 /* SwiftLocalDbAutoUpgrade-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftLocalDbAutoUpgrade-dummy.m"; sourceTree = "<group>"; };
+		8555FB7DE619686209C655BB34ACA38F /* HandyJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HandyJSON.h; path = Source/HandyJSON.h; sourceTree = "<group>"; };
+		874754D418D41C1939F3BB16BA0ABECD /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Source/Configuration.swift; sourceTree = "<group>"; };
+		87CF143F917DE49057CD43EE269E4050 /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISO8601DateTransform.swift; path = Source/ISO8601DateTransform.swift; sourceTree = "<group>"; };
+		884AEA01779AD71214C1CB9BE4E3D3A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88FDF910AA586524C32E9BA63271B0FD /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		8919591BCCECAD65E4351A4DCA04BF1D /* PropertyInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PropertyInfo.swift; path = Source/PropertyInfo.swift; sourceTree = "<group>"; };
+		8A013924E512ED6BB2F9420DC16037BA /* Pods-SwiftLocalDbAutoUpgrade_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftLocalDbAutoUpgrade_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8A15390BF8754CC455A5E8D6FF1423FD /* HandyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HandyJSON-prefix.pch"; sourceTree = "<group>"; };
+		8B68A090AED1009FD968AEC3810AF452 /* Deserializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deserializer.swift; path = Source/Deserializer.swift; sourceTree = "<group>"; };
+		8C3A34767217B91F32FCCBBA10B8C38F /* HelpingMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HelpingMapper.swift; path = Source/HelpingMapper.swift; sourceTree = "<group>"; };
+		8EF6EA8BE013CD7CC162A514C3ECB59E /* Pods-SwiftLocalDbAutoUpgrade_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftLocalDbAutoUpgrade_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8F49FC2B9B4BC88081DF94EF3BF8BA98 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9088586E055F4492A1F30FD817F1F08E /* Pods-SwiftLocalDbAutoUpgrade_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftLocalDbAutoUpgrade_Tests-umbrella.h"; sourceTree = "<group>"; };
+		90B4981E7E4A7CF0C45A5066291D4EC5 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		91A124199AE1E4C3EE4932AC222B4BBC /* Pods-SwiftLocalDbAutoUpgrade_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftLocalDbAutoUpgrade_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		922901E084CBE6FE10F134A2F716152A /* NSDecimalNumberTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSDecimalNumberTransform.swift; path = Source/NSDecimalNumberTransform.swift; sourceTree = "<group>"; };
+		9299812B82EAA281EFAFC994E046026A /* Properties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Properties.swift; path = Source/Properties.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		989450B91D86323BAB9FA02C2AFDF854 /* ZHRTableModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZHRTableModel.swift; path = SwiftLocalDbAutoUpgrade/Classes/ZHRTableModel.swift; sourceTree = "<group>"; };
+		989F81E9D9B1255925BF96556301C20A /* HandyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HandyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C267828CF5496322A40D90888A1EB8E /* ZHRDB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZHRDB.swift; path = SwiftLocalDbAutoUpgrade/Classes/ZHRDB.swift; sourceTree = "<group>"; };
+		9E162C642904EC7B18BB9ABD82B2D07B /* Pods-SwiftLocalDbAutoUpgrade_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftLocalDbAutoUpgrade_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E90ADC3FF1EA75C3C66FA5905896757 /* TransformType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformType.swift; path = Source/TransformType.swift; sourceTree = "<group>"; };
+		9F2B8314A3D9756CB60D67728C2954C9 /* Pods-SwiftLocalDbAutoUpgrade_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftLocalDbAutoUpgrade_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9FEC6F5EA80ABC9431B657C3CE9B5C91 /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
+		A0ECFE74990006C7E33637C3B2A028AB /* NominalType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NominalType.swift; path = Source/NominalType.swift; sourceTree = "<group>"; };
+		A3CF801FC5B40F1E4709D7FE06DDAC5E /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FMDB.modulemap; sourceTree = "<group>"; };
+		A6F52D08F1B0B2116885F065BE2992B6 /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomDateFormatTransform.swift; path = Source/CustomDateFormatTransform.swift; sourceTree = "<group>"; };
+		A7893FA564FA4D74AAC8264455C2A2A5 /* DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateTransform.swift; path = Source/DateTransform.swift; sourceTree = "<group>"; };
+		A7A4C78515B409F88351C127CD86F7A6 /* ZHRPlistHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZHRPlistHelper.swift; path = SwiftLocalDbAutoUpgrade/Classes/ZHRPlistHelper.swift; sourceTree = "<group>"; };
+		A87A6791AEC80D4D85F1ED67F5DE1CCC /* Pods-SwiftLocalDbAutoUpgrade_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftLocalDbAutoUpgrade_Tests-resources.sh"; sourceTree = "<group>"; };
+		AB094235F58A957A661857CD41C2C2C8 /* Pods-SwiftLocalDbAutoUpgrade_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftLocalDbAutoUpgrade_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		ACD0E0BA1BDC4AB07D920CE2191895B3 /* Metadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Metadata.swift; path = Source/Metadata.swift; sourceTree = "<group>"; };
+		B1031EE484EB776ECFFA1579D23A4C6D /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Source/Logger.swift; sourceTree = "<group>"; };
+		B54B394EC66B0EDC868BBB65DE710916 /* ZHRDBManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZHRDBManager.swift; path = SwiftLocalDbAutoUpgrade/Classes/ZHRDBManager.swift; sourceTree = "<group>"; };
+		B885D1849903D27B38B46306CC4A36AE /* HexColorTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexColorTransform.swift; path = Source/HexColorTransform.swift; sourceTree = "<group>"; };
+		B8D1A2B7C92A07ABC367D72BDBA3B647 /* SwiftLocalDbAutoUpgrade.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLocalDbAutoUpgrade.xcconfig; sourceTree = "<group>"; };
+		BC50A32C01248953A9904AF49868B604 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		BCE8BC5DEB46717B202EA63CE6080E01 /* String+ZHR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+ZHR.swift"; path = "SwiftLocalDbAutoUpgrade/Classes/String+ZHR.swift"; sourceTree = "<group>"; };
+		BF4F840DC193E37EF37FBAF9D4215252 /* PointerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PointerType.swift; path = Source/PointerType.swift; sourceTree = "<group>"; };
+		C03131FF428DEDC372E7D76A44EAA7B8 /* Pods-SwiftLocalDbAutoUpgrade_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftLocalDbAutoUpgrade_Tests.modulemap"; sourceTree = "<group>"; };
+		C154FAE411D22F46D07025C07BEB6DBF /* SwiftLocalDbAutoUpgrade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftLocalDbAutoUpgrade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27CA393879015B29CEABEB7048E5CDF /* ZHRPathHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZHRPathHelper.swift; path = SwiftLocalDbAutoUpgrade/Classes/ZHRPathHelper.swift; sourceTree = "<group>"; };
+		C77C573FECF3B4A962944BE897F37163 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		CF0D762958622B211524966AAF958A95 /* ReflectionHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReflectionHelper.swift; path = Source/ReflectionHelper.swift; sourceTree = "<group>"; };
+		D116A486F864B5D8DB1E279B22BEB4AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D12B9AF97DBCF83A5DA707BF5308B03A /* Pods_SwiftLocalDbAutoUpgrade_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLocalDbAutoUpgrade_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF9EA37D04C9D55647CFDA324CCB7D3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E17C97DCC2FADCC51C991A23EEAB80E0 /* Pods_SwiftLocalDbAutoUpgrade_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLocalDbAutoUpgrade_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52218D42856C36D1B5C8DBF722856DD /* Serializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Serializer.swift; path = Source/Serializer.swift; sourceTree = "<group>"; };
+		EF1898AAAEA26D10D0D77FB4770EB034 /* URLTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLTransform.swift; path = Source/URLTransform.swift; sourceTree = "<group>"; };
+		F6316B32A5F17FBAE432279DCF30D304 /* HandyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HandyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD4A1621C9670F9B2533FEC732C4A1E1 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		FF02E78DDB870B7088BEAEC40592424C /* ZHRUpgradeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZHRUpgradeManager.swift; path = SwiftLocalDbAutoUpgrade/Classes/ZHRUpgradeManager.swift; sourceTree = "<group>"; };
+		FFF876254408C93B446F6A4DAD31231F /* Pods-SwiftLocalDbAutoUpgrade_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftLocalDbAutoUpgrade_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25507DD6D7F1D774CD72F194200A6D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C92743D0D2154080836B58896172C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BAA0743C6D46BFF5192E1DE5859BF16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C73B5445B40C1672EFE997C621402E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6EE1AB509EAAF24960589F044E5FC0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CDECC7E52F5DBBA6AF1D7DDDB4064B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFB61A65EB8DA6653B544822EB9CE44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72563ADE99DC9E753B27D48B16AA3654 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4E3E651FF2C80A8CD09EDC1BE4D18B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3855F91A25D886A9F5006F18D9C0FE /* FMDB.framework in Frameworks */,
+				2E2B20A4F37B38CD5C524A02D26C0563 /* Foundation.framework in Frameworks */,
+				83940F7982A665218D4FBF7635775C62 /* HandyJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06F56CC226DDA027449E5E2BD502B3CE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DF9EA37D04C9D55647CFDA324CCB7D3C /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0ECAFA4AEF2F5348962129F401830565 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D116A486F864B5D8DB1E279B22BEB4AF /* Info.plist */,
+				17BE1150087CBEF9CA5F5E44C5797521 /* SwiftLocalDbAutoUpgrade.modulemap */,
+				B8D1A2B7C92A07ABC367D72BDBA3B647 /* SwiftLocalDbAutoUpgrade.xcconfig */,
+				83BDA1621D5DD5E7494569A3EC0EFD11 /* SwiftLocalDbAutoUpgrade-dummy.m */,
+				442C5A38E4FDEE4D3EA72CCCF62DD3B2 /* SwiftLocalDbAutoUpgrade-prefix.pch */,
+				5A9B88E74A98A6BCD9AFFA489BFA3E1B /* SwiftLocalDbAutoUpgrade-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftLocalDbAutoUpgrade";
+			sourceTree = "<group>";
+		};
+		35CC1A1AFA06BE3CC43D71FAFA88F37C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F49FC2B9B4BC88081DF94EF3BF8BA98 /* FMDB.framework */,
+				989F81E9D9B1255925BF96556301C20A /* HandyJSON.framework */,
+				E17C97DCC2FADCC51C991A23EEAB80E0 /* Pods_SwiftLocalDbAutoUpgrade_Example.framework */,
+				D12B9AF97DBCF83A5DA707BF5308B03A /* Pods_SwiftLocalDbAutoUpgrade_Tests.framework */,
+				C154FAE411D22F46D07025C07BEB6DBF /* SwiftLocalDbAutoUpgrade.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		395AF11009175D7E9EE7828DAAD83B93 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68C71AA73A476F665460AB3A2ED74EA1 /* HandyJSON.modulemap */,
+				25A0B450632B30CAA03EAC130E39DF49 /* HandyJSON.xcconfig */,
+				7AE256147E4D33F15E77502CA0DA14C0 /* HandyJSON-dummy.m */,
+				8A15390BF8754CC455A5E8D6FF1423FD /* HandyJSON-prefix.pch */,
+				2A987C08FFB0AFA1EC471A9F4B3EFADC /* HandyJSON-umbrella.h */,
+				884AEA01779AD71214C1CB9BE4E3D3A2 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HandyJSON";
+			sourceTree = "<group>";
+		};
+		40685B36E5626D8149CBE6938A51B6C1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B9E7324BA7D6B6BD55A85D378BE120A /* SwiftLocalDbAutoUpgrade */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		52AB4A7A6266255F252FDDD209C74689 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06B4BF63853B597C572AD6AE087804B1 /* FMDB.framework */,
+				F6316B32A5F17FBAE432279DCF30D304 /* HandyJSON.framework */,
+				06F56CC226DDA027449E5E2BD502B3CE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B9E7324BA7D6B6BD55A85D378BE120A /* SwiftLocalDbAutoUpgrade */ = {
+			isa = PBXGroup;
+			children = (
+				BCE8BC5DEB46717B202EA63CE6080E01 /* String+ZHR.swift */,
+				9C267828CF5496322A40D90888A1EB8E /* ZHRDB.swift */,
+				B54B394EC66B0EDC868BBB65DE710916 /* ZHRDBManager.swift */,
+				7D84274098F7AC2872C0B707CC6A848E /* ZHRFieldModel.swift */,
+				C27CA393879015B29CEABEB7048E5CDF /* ZHRPathHelper.swift */,
+				A7A4C78515B409F88351C127CD86F7A6 /* ZHRPlistHelper.swift */,
+				989450B91D86323BAB9FA02C2AFDF854 /* ZHRTableModel.swift */,
+				FF02E78DDB870B7088BEAEC40592424C /* ZHRUpgradeManager.swift */,
+				0ECAFA4AEF2F5348962129F401830565 /* Support Files */,
+			);
+			name = SwiftLocalDbAutoUpgrade;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7A0CF7E1E9C976F5232605D8A303B42A /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				8A7D6E3CB84B1EA8777C397235E95560 /* standard */,
+				E6A3D68534823C22C524A1677B38F623 /* Support Files */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				40685B36E5626D8149CBE6938A51B6C1 /* Development Pods */,
+				52AB4A7A6266255F252FDDD209C74689 /* Frameworks */,
+				EBB508B0E60F11C342A3F2CFC2E255FC /* Pods */,
+				35CC1A1AFA06BE3CC43D71FAFA88F37C /* Products */,
+				96B528C382D86F5F88CED51425C98A6D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A6C4DEC049008BFD40F620B9C50CEA2 /* HandyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				003A9F172EA00FA5BB0BA0BEAC33D353 /* AnyExtensions.swift */,
+				825D91292F66442884ABED8762BB5CDD /* BuiltInBasicType.swift */,
+				712C2FDEE5B3637ADE5C1638FA569B01 /* BuiltInBridgeType.swift */,
+				874754D418D41C1939F3BB16BA0ABECD /* Configuration.swift */,
+				A6F52D08F1B0B2116885F065BE2992B6 /* CustomDateFormatTransform.swift */,
+				7DE1CFA4EDCC8D1CFA902756E4DD9919 /* DataTransform.swift */,
+				831C6C7CC756499DC0BE2C80E0668C81 /* DateFormatterTransform.swift */,
+				A7893FA564FA4D74AAC8264455C2A2A5 /* DateTransform.swift */,
+				8B68A090AED1009FD968AEC3810AF452 /* Deserializer.swift */,
+				76237E6C14378F1B84043815868FB545 /* EnumTransform.swift */,
+				740C9E0CD0A6BF5B6E4D2D4DBEA8B7DB /* EnumType.swift */,
+				173D679CE55842A4C0BF84950E4C5164 /* Export.swift */,
+				429D953ABE4DBCBF8C50C16C080081A8 /* ExtendCustomBasicType.swift */,
+				6FBEE9C256A3D13BCAC0379D885D9954 /* ExtendCustomModelType.swift */,
+				8555FB7DE619686209C655BB34ACA38F /* HandyJSON.h */,
+				8C3A34767217B91F32FCCBBA10B8C38F /* HelpingMapper.swift */,
+				B885D1849903D27B38B46306CC4A36AE /* HexColorTransform.swift */,
+				87CF143F917DE49057CD43EE269E4050 /* ISO8601DateTransform.swift */,
+				B1031EE484EB776ECFFA1579D23A4C6D /* Logger.swift */,
+				0295418602AFD0116DC74C82E7859DE7 /* Measuable.swift */,
+				ACD0E0BA1BDC4AB07D920CE2191895B3 /* Metadata.swift */,
+				A0ECFE74990006C7E33637C3B2A028AB /* NominalType.swift */,
+				922901E084CBE6FE10F134A2F716152A /* NSDecimalNumberTransform.swift */,
+				210412394EAFB4263CEB6429D4C1F943 /* OtherExtension.swift */,
+				BF4F840DC193E37EF37FBAF9D4215252 /* PointerType.swift */,
+				9299812B82EAA281EFAFC994E046026A /* Properties.swift */,
+				8919591BCCECAD65E4351A4DCA04BF1D /* PropertyInfo.swift */,
+				CF0D762958622B211524966AAF958A95 /* ReflectionHelper.swift */,
+				E52218D42856C36D1B5C8DBF722856DD /* Serializer.swift */,
+				6143A5F6D14144EBC2344D4E93F89964 /* Transformable.swift */,
+				812A7260159FE9D1713C90AD8D2E66F1 /* TransformOf.swift */,
+				9E90ADC3FF1EA75C3C66FA5905896757 /* TransformType.swift */,
+				EF1898AAAEA26D10D0D77FB4770EB034 /* URLTransform.swift */,
+				395AF11009175D7E9EE7828DAAD83B93 /* Support Files */,
+			);
+			path = HandyJSON;
+			sourceTree = "<group>";
+		};
+		8A7D6E3CB84B1EA8777C397235E95560 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				30F31A5F1B6007CF90D135CE58DBBBC7 /* FMDatabase.h */,
+				0DDF8F2E280FC47686E7538A254AD8AC /* FMDatabase.m */,
+				1A5895190384BDBB97C139F24C0B6783 /* FMDatabaseAdditions.h */,
+				7B6608F61619486434C4D0E16C3FFD1D /* FMDatabaseAdditions.m */,
+				FD4A1621C9670F9B2533FEC732C4A1E1 /* FMDatabasePool.h */,
+				33CA7E68DA164898440C1D067107A351 /* FMDatabasePool.m */,
+				90B4981E7E4A7CF0C45A5066291D4EC5 /* FMDatabaseQueue.h */,
+				C77C573FECF3B4A962944BE897F37163 /* FMDatabaseQueue.m */,
+				88FDF910AA586524C32E9BA63271B0FD /* FMDB.h */,
+				12DB27120EC120459E99EE475E5E7FB5 /* FMResultSet.h */,
+				BC50A32C01248953A9904AF49868B604 /* FMResultSet.m */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		96B528C382D86F5F88CED51425C98A6D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFED6527B933DBF11C415973C73F9935 /* Pods-SwiftLocalDbAutoUpgrade_Example */,
+				B35C339E06E6F72EE634EE714E90E3F8 /* Pods-SwiftLocalDbAutoUpgrade_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AFED6527B933DBF11C415973C73F9935 /* Pods-SwiftLocalDbAutoUpgrade_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4E7B3190035C884E9DA1F56EC46DA100 /* Info.plist */,
+				735018FDC544EA7E63994D228C9C773E /* Pods-SwiftLocalDbAutoUpgrade_Example.modulemap */,
+				0C5220D0663321D7AD232B1CD7D49051 /* Pods-SwiftLocalDbAutoUpgrade_Example-acknowledgements.markdown */,
+				9F2B8314A3D9756CB60D67728C2954C9 /* Pods-SwiftLocalDbAutoUpgrade_Example-acknowledgements.plist */,
+				6FA7DB8DE3AAECEDC67D78AB47B29446 /* Pods-SwiftLocalDbAutoUpgrade_Example-dummy.m */,
+				03AADA3DC42664F69E4D544879865107 /* Pods-SwiftLocalDbAutoUpgrade_Example-frameworks.sh */,
+				5C7C4C2AB76CA91D44D7209FADDE8276 /* Pods-SwiftLocalDbAutoUpgrade_Example-resources.sh */,
+				482BF0BB7059CFA2CAC623E938A6B8A9 /* Pods-SwiftLocalDbAutoUpgrade_Example-umbrella.h */,
+				3C889BC14AEE98795B24D37C279860F5 /* Pods-SwiftLocalDbAutoUpgrade_Example.debug.xcconfig */,
+				8A013924E512ED6BB2F9420DC16037BA /* Pods-SwiftLocalDbAutoUpgrade_Example.release.xcconfig */,
+			);
+			name = "Pods-SwiftLocalDbAutoUpgrade_Example";
+			path = "Target Support Files/Pods-SwiftLocalDbAutoUpgrade_Example";
+			sourceTree = "<group>";
+		};
+		B35C339E06E6F72EE634EE714E90E3F8 /* Pods-SwiftLocalDbAutoUpgrade_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				70ED9DE2F9A88F39BA3BFB2DE762C9BE /* Info.plist */,
+				C03131FF428DEDC372E7D76A44EAA7B8 /* Pods-SwiftLocalDbAutoUpgrade_Tests.modulemap */,
+				FFF876254408C93B446F6A4DAD31231F /* Pods-SwiftLocalDbAutoUpgrade_Tests-acknowledgements.markdown */,
+				91A124199AE1E4C3EE4932AC222B4BBC /* Pods-SwiftLocalDbAutoUpgrade_Tests-acknowledgements.plist */,
+				28C5E1FB71AA4359DE86DB6D95843917 /* Pods-SwiftLocalDbAutoUpgrade_Tests-dummy.m */,
+				8EF6EA8BE013CD7CC162A514C3ECB59E /* Pods-SwiftLocalDbAutoUpgrade_Tests-frameworks.sh */,
+				A87A6791AEC80D4D85F1ED67F5DE1CCC /* Pods-SwiftLocalDbAutoUpgrade_Tests-resources.sh */,
+				9088586E055F4492A1F30FD817F1F08E /* Pods-SwiftLocalDbAutoUpgrade_Tests-umbrella.h */,
+				9E162C642904EC7B18BB9ABD82B2D07B /* Pods-SwiftLocalDbAutoUpgrade_Tests.debug.xcconfig */,
+				AB094235F58A957A661857CD41C2C2C8 /* Pods-SwiftLocalDbAutoUpgrade_Tests.release.xcconfig */,
+			);
+			name = "Pods-SwiftLocalDbAutoUpgrade_Tests";
+			path = "Target Support Files/Pods-SwiftLocalDbAutoUpgrade_Tests";
+			sourceTree = "<group>";
+		};
+		E6A3D68534823C22C524A1677B38F623 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3CF801FC5B40F1E4709D7FE06DDAC5E /* FMDB.modulemap */,
+				9FEC6F5EA80ABC9431B657C3CE9B5C91 /* FMDB.xcconfig */,
+				0BCF4CAFB6D1E3B13146636236295374 /* FMDB-dummy.m */,
+				2969479B138406AFFB75F8B97AEA4B9A /* FMDB-prefix.pch */,
+				47298875B9139DB9479D781B768CD091 /* FMDB-umbrella.h */,
+				0C9C28350FA6BD7886967D26B00F5FF8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+		EBB508B0E60F11C342A3F2CFC2E255FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A0CF7E1E9C976F5232605D8A303B42A /* FMDB */,
+				8A6C4DEC049008BFD40F620B9C50CEA2 /* HandyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16845547CA168475331279C504643647 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9D11BEACC080376EA6F57C6167B34A /* HandyJSON-umbrella.h in Headers */,
+				895952B7EE442E03D667D9565D8C84F4 /* HandyJSON.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253C61BA3D5E1F3DBD82623BB9EC68B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E4890A44BE5969FF55384D952D5B17 /* Pods-SwiftLocalDbAutoUpgrade_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384ED59D9D608720B574757B052E9A05 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DEA3017AB2525A3C1BF49CEF867BE1 /* Pods-SwiftLocalDbAutoUpgrade_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D2A080C5CD4ED4520C6AEFA1D6BA26F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11FAB91014130EE233A3429439D38D7 /* FMDatabase.h in Headers */,
+				A548833BE5FAD40830428F36E77D0F52 /* FMDatabaseAdditions.h in Headers */,
+				9B8D84996694C541CD3434386E0A081A /* FMDatabasePool.h in Headers */,
+				22554065FA07F1BFE5308A685394CB12 /* FMDatabaseQueue.h in Headers */,
+				96E70B43FC04BC99AED1BBD4FB1D7581 /* FMDB-umbrella.h in Headers */,
+				CCB74062CE0F4B8E5B7483599BC398DA /* FMDB.h in Headers */,
+				3E43906B70EB01C06F3AE17008B853B9 /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D6FBDD58F8613E8DE7BFCD8194C64F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31CB772B4761F0EF70E974B909CC8E24 /* SwiftLocalDbAutoUpgrade-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1465651EBBC44AD3276DDE2476CDA450 /* HandyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184303B9B5FF90B2017E4D0073BC6423 /* Build configuration list for PBXNativeTarget "HandyJSON" */;
+			buildPhases = (
+				9E2EA877008AD721B563C60EC3490DD2 /* Sources */,
+				25507DD6D7F1D774CD72F194200A6D77 /* Frameworks */,
+				16845547CA168475331279C504643647 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandyJSON;
+			productName = HandyJSON;
+			productReference = 989F81E9D9B1255925BF96556301C20A /* HandyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1D2D76AB0311F50A3D57D68A8E70E410 /* Pods-SwiftLocalDbAutoUpgrade_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3438227E9406F9E370DC626A5D3C5FF9 /* Build configuration list for PBXNativeTarget "Pods-SwiftLocalDbAutoUpgrade_Tests" */;
+			buildPhases = (
+				176A5DCDA05048CCD596423AD7289673 /* Sources */,
+				5BAA0743C6D46BFF5192E1DE5859BF16 /* Frameworks */,
+				253C61BA3D5E1F3DBD82623BB9EC68B4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SwiftLocalDbAutoUpgrade_Tests";
+			productName = "Pods-SwiftLocalDbAutoUpgrade_Tests";
+			productReference = D12B9AF97DBCF83A5DA707BF5308B03A /* Pods_SwiftLocalDbAutoUpgrade_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		251BAD17812F7EBF6532EACF66F941C3 /* FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B0566FF0CE681AC326D316CEC45A8CF /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildPhases = (
+				8FE0D4B503A94502F3431DC0DCB58040 /* Sources */,
+				EEFB61A65EB8DA6653B544822EB9CE44 /* Frameworks */,
+				3D2A080C5CD4ED4520C6AEFA1D6BA26F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = 8F49FC2B9B4BC88081DF94EF3BF8BA98 /* FMDB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		38E636950572D34CFEEB5F374B53DF5C /* Pods-SwiftLocalDbAutoUpgrade_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B4823CEDC629223EF4E2C5646FAB432 /* Build configuration list for PBXNativeTarget "Pods-SwiftLocalDbAutoUpgrade_Example" */;
+			buildPhases = (
+				B27E15E696A8133E0466C26F195F69F7 /* Sources */,
+				C6EE1AB509EAAF24960589F044E5FC0E /* Frameworks */,
+				384ED59D9D608720B574757B052E9A05 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76875B815863FFA6D7DBC78657795554 /* PBXTargetDependency */,
+				4076B4AB0F8CF091996C24EB94585D81 /* PBXTargetDependency */,
+				A62D34B05300E57D2C0927B7A573E912 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftLocalDbAutoUpgrade_Example";
+			productName = "Pods-SwiftLocalDbAutoUpgrade_Example";
+			productReference = E17C97DCC2FADCC51C991A23EEAB80E0 /* Pods_SwiftLocalDbAutoUpgrade_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A59C304C038F030F5DB92359E8FE609D /* SwiftLocalDbAutoUpgrade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15C13074D411D76DF6947CC2774CE53 /* Build configuration list for PBXNativeTarget "SwiftLocalDbAutoUpgrade" */;
+			buildPhases = (
+				67D792C2C645F1BEFB5CED29D03131A3 /* Sources */,
+				EF4E3E651FF2C80A8CD09EDC1BE4D18B /* Frameworks */,
+				58D6FBDD58F8613E8DE7BFCD8194C64F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC63FD64D74E90B8C974FB844716B54B /* PBXTargetDependency */,
+				D30BBCBCAA84B22E33989D7E28937B56 /* PBXTargetDependency */,
+			);
+			name = SwiftLocalDbAutoUpgrade;
+			productName = SwiftLocalDbAutoUpgrade;
+			productReference = C154FAE411D22F46D07025C07BEB6DBF /* SwiftLocalDbAutoUpgrade.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 35CC1A1AFA06BE3CC43D71FAFA88F37C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				251BAD17812F7EBF6532EACF66F941C3 /* FMDB */,
+				1465651EBBC44AD3276DDE2476CDA450 /* HandyJSON */,
+				38E636950572D34CFEEB5F374B53DF5C /* Pods-SwiftLocalDbAutoUpgrade_Example */,
+				1D2D76AB0311F50A3D57D68A8E70E410 /* Pods-SwiftLocalDbAutoUpgrade_Tests */,
+				A59C304C038F030F5DB92359E8FE609D /* SwiftLocalDbAutoUpgrade */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		176A5DCDA05048CCD596423AD7289673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E96E9B8BDE725BF6E1585B640EFA3C /* Pods-SwiftLocalDbAutoUpgrade_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D792C2C645F1BEFB5CED29D03131A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06810AF6D7439DA88F7E1D6A73650EC /* String+ZHR.swift in Sources */,
+				C69DDAAEBACC566CD4B00E7ED49BB047 /* SwiftLocalDbAutoUpgrade-dummy.m in Sources */,
+				042E71A79BF92484D29C1D86BE596FC2 /* ZHRDB.swift in Sources */,
+				C72B87D543871D8701EFA85F4909283D /* ZHRDBManager.swift in Sources */,
+				D2D51A84C36B46BA1E9658EEEB36D706 /* ZHRFieldModel.swift in Sources */,
+				67D73AEC82C2BAA112949211D3DBFF4E /* ZHRPathHelper.swift in Sources */,
+				4A1E817ED7330692AE151BEADE1C9075 /* ZHRPlistHelper.swift in Sources */,
+				36BEE92B72672D86E1C2E7E6EC63E561 /* ZHRTableModel.swift in Sources */,
+				1D36F6D548E58012989CDF6AE95C4C51 /* ZHRUpgradeManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE0D4B503A94502F3431DC0DCB58040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F097E2269EF1BD238AD7449D796445 /* FMDatabase.m in Sources */,
+				9C11A290C9C5866A185A54F1EC04E2BB /* FMDatabaseAdditions.m in Sources */,
+				C605A44DF96E7FCACF7D6E37B62F795D /* FMDatabasePool.m in Sources */,
+				A1B5D80A8998311B8C9043E6942925E6 /* FMDatabaseQueue.m in Sources */,
+				D5991941DC41DDDDDACAE0B5D47A4639 /* FMDB-dummy.m in Sources */,
+				87ECA447DB887426665260651B7F147E /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2EA877008AD721B563C60EC3490DD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BA709E0C563EB1B2DAF3BADB772F2A /* AnyExtensions.swift in Sources */,
+				021D6C85E81A69A6BCAE70C21436EA3E /* BuiltInBasicType.swift in Sources */,
+				0A1BD30AD9DDAB732D93AD60DA3B3BA1 /* BuiltInBridgeType.swift in Sources */,
+				C26CB3A89ED18B9165DE49242AE42C82 /* Configuration.swift in Sources */,
+				2DEB5250C87B29F26B5744C8DD5F1977 /* CustomDateFormatTransform.swift in Sources */,
+				02D3A06037603557B0DC297D152A5A2F /* DataTransform.swift in Sources */,
+				244470CB974C823AE034C2B28012F0B2 /* DateFormatterTransform.swift in Sources */,
+				F17038401495DBF46EBF17DAF51B4C6C /* DateTransform.swift in Sources */,
+				68A052920D1662B0030CFD2B70EDBE87 /* Deserializer.swift in Sources */,
+				C23DCC759D062F56019848BAA9311441 /* EnumTransform.swift in Sources */,
+				DACE12E1479FE4F88D8B427846C5D7E4 /* EnumType.swift in Sources */,
+				7724ED40406563DDA3FCBC9E0B41DD8F /* Export.swift in Sources */,
+				94D33EA48767242A77874B217DDF1ECD /* ExtendCustomBasicType.swift in Sources */,
+				D42094FCFFE2545CEBCDE39191DE67CF /* ExtendCustomModelType.swift in Sources */,
+				FB1319C5A8ED8E5A9A523D6D325D09AD /* HandyJSON-dummy.m in Sources */,
+				B1A5F48171486478562F0F19A660ED96 /* HelpingMapper.swift in Sources */,
+				145EA8D15BA928C9BD3B362264F45B31 /* HexColorTransform.swift in Sources */,
+				747DCF82C0695A667944D494740212BC /* ISO8601DateTransform.swift in Sources */,
+				FC63C01D7951D40756AFAAE788BE8013 /* Logger.swift in Sources */,
+				EAA714197FC4B5125930E7FF28A8A71C /* Measuable.swift in Sources */,
+				B4CF06AFBD2A90D2F0AE4308A37EEEED /* Metadata.swift in Sources */,
+				81DD05230F6848CB644B4D56BF5CC890 /* NominalType.swift in Sources */,
+				2831BCD46C574710427B6DC8FA388737 /* NSDecimalNumberTransform.swift in Sources */,
+				38F94020F18E7E473F0B8194A32A4522 /* OtherExtension.swift in Sources */,
+				14CBA924E36D7C9F85395A5E3B3EBA05 /* PointerType.swift in Sources */,
+				EEAABF9F5D1751371149959C801D0BFB /* Properties.swift in Sources */,
+				47A6F2B2CBCD6B219E142956210D3504 /* PropertyInfo.swift in Sources */,
+				2E0597CC1C286E122389BE16AF6B6C28 /* ReflectionHelper.swift in Sources */,
+				3F7D320528F306187FB12746EF258951 /* Serializer.swift in Sources */,
+				E637580645881306743C135F50EEBDA1 /* Transformable.swift in Sources */,
+				3857FA2B4BA148BA85E93B4CCB88EB5A /* TransformOf.swift in Sources */,
+				D16E571F2CBC6CFAF015461E218B580E /* TransformType.swift in Sources */,
+				B84445D00EBDB3D909469F1AE4531C82 /* URLTransform.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B27E15E696A8133E0466C26F195F69F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BED3157B56D9A76AC8BD726F4FF03CB /* Pods-SwiftLocalDbAutoUpgrade_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4076B4AB0F8CF091996C24EB94585D81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HandyJSON;
+			target = 1465651EBBC44AD3276DDE2476CDA450 /* HandyJSON */;
+			targetProxy = 3ED5B19637995B26F161A70F5C47D493 /* PBXContainerItemProxy */;
+		};
+		76875B815863FFA6D7DBC78657795554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 251BAD17812F7EBF6532EACF66F941C3 /* FMDB */;
+			targetProxy = 21A99C2FFE4EE0AF12D2B965F51FAD75 /* PBXContainerItemProxy */;
+		};
+		A62D34B05300E57D2C0927B7A573E912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLocalDbAutoUpgrade;
+			target = A59C304C038F030F5DB92359E8FE609D /* SwiftLocalDbAutoUpgrade */;
+			targetProxy = DE305D04A1E25C7EBC3D7C34874B014F /* PBXContainerItemProxy */;
+		};
+		D30BBCBCAA84B22E33989D7E28937B56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HandyJSON;
+			target = 1465651EBBC44AD3276DDE2476CDA450 /* HandyJSON */;
+			targetProxy = BD2FBAB8BE2F5550D5EB36D89A54CCE2 /* PBXContainerItemProxy */;
+		};
+		DC63FD64D74E90B8C974FB844716B54B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 251BAD17812F7EBF6532EACF66F941C3 /* FMDB */;
+			targetProxy = 4B95C9169B8989830973B7F73D691067 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		081C9795F40470F31BD0D4D8FA8AD94A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E162C642904EC7B18BB9ABD82B2D07B /* Pods-SwiftLocalDbAutoUpgrade_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftLocalDbAutoUpgrade_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftLocalDbAutoUpgrade_Tests/Pods-SwiftLocalDbAutoUpgrade_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftLocalDbAutoUpgrade_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		452E931011FAC1094E2AAFE5D9BE70EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A013924E512ED6BB2F9420DC16037BA /* Pods-SwiftLocalDbAutoUpgrade_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftLocalDbAutoUpgrade_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftLocalDbAutoUpgrade_Example/Pods-SwiftLocalDbAutoUpgrade_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftLocalDbAutoUpgrade_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C3944FE509AF7EA65FEB33073A87107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C889BC14AEE98795B24D37C279860F5 /* Pods-SwiftLocalDbAutoUpgrade_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftLocalDbAutoUpgrade_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftLocalDbAutoUpgrade_Example/Pods-SwiftLocalDbAutoUpgrade_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftLocalDbAutoUpgrade_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D4BE9B79EDC0ECD2D479D967F816CF79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB094235F58A957A661857CD41C2C2C8 /* Pods-SwiftLocalDbAutoUpgrade_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftLocalDbAutoUpgrade_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftLocalDbAutoUpgrade_Tests/Pods-SwiftLocalDbAutoUpgrade_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftLocalDbAutoUpgrade_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DAE72FF2FFE8166FA938EB388ABBC2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25A0B450632B30CAA03EAC130E39DF49 /* HandyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HandyJSON/HandyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HandyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HandyJSON/HandyJSON.modulemap";
+				PRODUCT_NAME = HandyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDB968533B722E976DC4DB243E3D29CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D1A2B7C92A07ABC367D72BDBA3B647 /* SwiftLocalDbAutoUpgrade.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftLocalDbAutoUpgrade/SwiftLocalDbAutoUpgrade-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftLocalDbAutoUpgrade/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftLocalDbAutoUpgrade/SwiftLocalDbAutoUpgrade.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mars.SwiftLocalDbAutoUpgrade;
+				PRODUCT_NAME = SwiftLocalDbAutoUpgrade;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF59F9EAD3A14631E9FFD007E1A70265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FEC6F5EA80ABC9431B657C3CE9B5C91 /* FMDB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECB5142D4DABB45B92371C51B3EB61F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25A0B450632B30CAA03EAC130E39DF49 /* HandyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HandyJSON/HandyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HandyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HandyJSON/HandyJSON.modulemap";
+				PRODUCT_NAME = HandyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED6767AF0F8CBC24940F4B6BE5F4A7C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D1A2B7C92A07ABC367D72BDBA3B647 /* SwiftLocalDbAutoUpgrade.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftLocalDbAutoUpgrade/SwiftLocalDbAutoUpgrade-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftLocalDbAutoUpgrade/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftLocalDbAutoUpgrade/SwiftLocalDbAutoUpgrade.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mars.SwiftLocalDbAutoUpgrade;
+				PRODUCT_NAME = SwiftLocalDbAutoUpgrade;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4A3BE47E5388D694D21599E3DD420CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FEC6F5EA80ABC9431B657C3CE9B5C91 /* FMDB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184303B9B5FF90B2017E4D0073BC6423 /* Build configuration list for PBXNativeTarget "HandyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE72FF2FFE8166FA938EB388ABBC2B5 /* Debug */,
+				ECB5142D4DABB45B92371C51B3EB61F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3438227E9406F9E370DC626A5D3C5FF9 /* Build configuration list for PBXNativeTarget "Pods-SwiftLocalDbAutoUpgrade_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				081C9795F40470F31BD0D4D8FA8AD94A /* Debug */,
+				D4BE9B79EDC0ECD2D479D967F816CF79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B0566FF0CE681AC326D316CEC45A8CF /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF59F9EAD3A14631E9FFD007E1A70265 /* Debug */,
+				F4A3BE47E5388D694D21599E3DD420CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B4823CEDC629223EF4E2C5646FAB432 /* Build configuration list for PBXNativeTarget "Pods-SwiftLocalDbAutoUpgrade_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3944FE509AF7EA65FEB33073A87107 /* Debug */,
+				452E931011FAC1094E2AAFE5D9BE70EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F15C13074D411D76DF6947CC2774CE53 /* Build configuration list for PBXNativeTarget "SwiftLocalDbAutoUpgrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6767AF0F8CBC24940F4B6BE5F4A7C9 /* Debug */,
+				DDB968533B722E976DC4DB243E3D29CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
