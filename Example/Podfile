@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftLocalDbAutoUpgrade_Example' do
+  pod 'SwiftLocalDbAutoUpgrade', :path => '../'
+
+  target 'SwiftLocalDbAutoUpgrade_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
