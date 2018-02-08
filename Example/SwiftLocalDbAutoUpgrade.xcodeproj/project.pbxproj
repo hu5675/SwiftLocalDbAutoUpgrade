@@ -11,6 +11,9 @@
 		41384707202C027B0071E108 /* Record.db in Resources */ = {isa = PBXBuildFile; fileRef = 41384704202C027B0071E108 /* Record.db */; };
 		41384708202C027B0071E108 /* tables.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41384705202C027B0071E108 /* tables.plist */; };
 		41384709202C027B0071E108 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41384706202C027B0071E108 /* ViewController.swift */; };
+		4138470D202C25F30071E108 /* tables_add_fields.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4138470A202C25F30071E108 /* tables_add_fields.plist */; };
+		4138470E202C25F30071E108 /* tables_add_tables.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4138470B202C25F30071E108 /* tables_add_tables.plist */; };
+		4138470F202C25F30071E108 /* tables_delete_fields.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4138470C202C25F30071E108 /* tables_delete_fields.plist */; };
 		55FD2B82361F961FF63EDCC6 /* Pods_SwiftLocalDbAutoUpgrade_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0987AD2D625C91B70B273D /* Pods_SwiftLocalDbAutoUpgrade_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 		41384704202C027B0071E108 /* Record.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Record.db; sourceTree = "<group>"; };
 		41384705202C027B0071E108 /* tables.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tables.plist; sourceTree = "<group>"; };
 		41384706202C027B0071E108 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4138470A202C25F30071E108 /* tables_add_fields.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tables_add_fields.plist; sourceTree = "<group>"; };
+		4138470B202C25F30071E108 /* tables_add_tables.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tables_add_tables.plist; sourceTree = "<group>"; };
+		4138470C202C25F30071E108 /* tables_delete_fields.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tables_delete_fields.plist; sourceTree = "<group>"; };
 		44546C552670783722B5D320 /* Pods_SwiftLocalDbAutoUpgrade_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLocalDbAutoUpgrade_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		464AAE1A04FF802D696D8D6B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4EB502DB2332198BF21ACE89 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -106,6 +112,9 @@
 		607FACD21AFB9204008FA782 /* Example for SwiftLocalDbAutoUpgrade */ = {
 			isa = PBXGroup;
 			children = (
+				4138470A202C25F30071E108 /* tables_add_fields.plist */,
+				4138470B202C25F30071E108 /* tables_add_tables.plist */,
+				4138470C202C25F30071E108 /* tables_delete_fields.plist */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				41384704202C027B0071E108 /* Record.db */,
 				41384705202C027B0071E108 /* tables.plist */,
@@ -254,11 +263,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4138470D202C25F30071E108 /* tables_add_fields.plist in Resources */,
 				41384707202C027B0071E108 /* Record.db in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				41384708202C027B0071E108 /* tables.plist in Resources */,
+				4138470E202C25F30071E108 /* tables_add_tables.plist in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				4138470F202C25F30071E108 /* tables_delete_fields.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

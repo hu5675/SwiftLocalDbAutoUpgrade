@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>fields</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>id</string>
+				<key>type</key>
+				<string>&quot;id&quot; INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>field_2</string>
+				<key>type</key>
+				<string>&quot;field_2&quot; TEXT</string>
+			</dict>
+		</array>
+		<key>table_name</key>
+		<string>table_1</string>
+	</dict>
+</array>
+</plist>

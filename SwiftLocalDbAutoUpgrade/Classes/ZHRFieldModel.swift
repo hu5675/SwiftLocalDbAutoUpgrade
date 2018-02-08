@@ -9,13 +9,13 @@
 import UIKit
 import HandyJSON
 
-class ZHRFieldModel: HandyJSON {
+open class ZHRFieldModel: HandyJSON {
 
-    required init() {
+    required public init() {
         
     }
     
-    var name:String? = nil
+    open var name:String? = nil
     
-    var type:String? = nil
+    open var type:String? = nil
 }
