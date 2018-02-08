@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftLocalDbAutoUpgrade'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'IOS本地数据库自动升级'
 
 # This description is used to generate tags and improve search results.

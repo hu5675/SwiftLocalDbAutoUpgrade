@@ -8,19 +8,19 @@
 
 import UIKit
 
-class ZHRDBManager: NSObject {
+open class ZHRDBManager: NSObject {
 
-    static let shared:ZHRDBManager =  ZHRDBManager.init()
+    open static let shared:ZHRDBManager =  ZHRDBManager.init()
     
     static var dbName:String = "Record.db"
     
-    public var db:ZHRDB! = ZHRDB(dbName: dbName, password: nil)
+    open var db:ZHRDB! = ZHRDB(dbName: dbName, password: nil)
     
     
     /// 查询本地数据库表结构信息
     ///
     /// - Returns:
-    func queryAllTable() -> [ZHRTableModel?]? {
+    open func queryAllTable() -> [ZHRTableModel?]? {
         let sql = "select name as table_name from sqlite_master where type='table' and name != 'sqlite_sequence'"
         let result =  ZHRDBManager.shared.db.selectList(sql: sql)
         let tables = [ZHRTableModel].deserialize(from: result) ?? []

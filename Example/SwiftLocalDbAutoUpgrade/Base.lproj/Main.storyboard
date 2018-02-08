@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,11 +21,104 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XrO-iZ-oCU">
+                                <rect key="frame" x="0.0" y="20" width="375" height="160"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FJH-da-En3">
+                                        <rect key="frame" x="127" y="10" width="121" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="gkj-wN-cqQ"/>
+                                        </constraints>
+                                        <state key="normal" title="测试-添加表-升级"/>
+                                        <connections>
+                                            <action selector="addTablesUpgradeWithSender:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jP6-1v-fSg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcC-XK-b5c">
+                                        <rect key="frame" x="119" y="50" width="137" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Pad-YB-J9v"/>
+                                        </constraints>
+                                        <state key="normal" title="测试-添加字段-升级"/>
+                                        <connections>
+                                            <action selector="addFieldsUpgradeWithSender:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ZXH-ea-Xoz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ti-gH-PWc">
+                                        <rect key="frame" x="119" y="90" width="137" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="2p2-Dw-gYP"/>
+                                        </constraints>
+                                        <state key="normal" title="测试-删除字段-升级"/>
+                                        <connections>
+                                            <action selector="deleteFieldsUpgradeWithSender:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="cBO-66-pKA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NdA-bq-NVY">
+                                        <rect key="frame" x="127" y="130" width="121" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="wcr-zl-uwy"/>
+                                        </constraints>
+                                        <state key="normal" title="测试-删除表-升级"/>
+                                        <connections>
+                                            <action selector="deleteTablesUpgradeWithSender:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="W1D-te-R7V"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="FJH-da-En3" firstAttribute="centerX" secondItem="XrO-iZ-oCU" secondAttribute="centerX" id="0IU-JS-3ib"/>
+                                    <constraint firstItem="lcC-XK-b5c" firstAttribute="centerX" secondItem="XrO-iZ-oCU" secondAttribute="centerX" id="2Ov-tw-zDW"/>
+                                    <constraint firstItem="4ti-gH-PWc" firstAttribute="centerX" secondItem="XrO-iZ-oCU" secondAttribute="centerX" id="9Nm-Cd-l0e"/>
+                                    <constraint firstItem="NdA-bq-NVY" firstAttribute="top" secondItem="4ti-gH-PWc" secondAttribute="bottom" constant="10" id="E0e-86-7ka"/>
+                                    <constraint firstItem="lcC-XK-b5c" firstAttribute="top" secondItem="FJH-da-En3" secondAttribute="bottom" constant="10" id="JgB-43-Dd1"/>
+                                    <constraint firstItem="4ti-gH-PWc" firstAttribute="top" secondItem="lcC-XK-b5c" secondAttribute="bottom" constant="10" id="Ock-E1-adE"/>
+                                    <constraint firstAttribute="height" constant="160" id="URj-O5-Cib"/>
+                                    <constraint firstItem="FJH-da-En3" firstAttribute="top" secondItem="XrO-iZ-oCU" secondAttribute="top" constant="10" id="bQl-Mk-t57"/>
+                                    <constraint firstItem="NdA-bq-NVY" firstAttribute="centerX" secondItem="XrO-iZ-oCU" secondAttribute="centerX" id="gaD-Y4-9II"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WEe-yD-3fj">
+                                <rect key="frame" x="16" y="230" width="343" height="437"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="3R3-Vb-E16"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="Hon-ll-32l"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w9a-gC-z33">
+                                <rect key="frame" x="16" y="190" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="FfK-eM-Yg0"/>
+                                </constraints>
+                                <state key="normal" title="查看当前数据库表结构"/>
+                                <connections>
+                                    <action selector="viewCurrentTableStructWithSender:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jKx-kS-uu5"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XrO-iZ-oCU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="3TE-GQ-epi"/>
+                            <constraint firstItem="w9a-gC-z33" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="7Sx-et-lPE"/>
+                            <constraint firstItem="WEe-yD-3fj" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="7eq-bd-v9Q"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WEe-yD-3fj" secondAttribute="trailing" id="A5E-Lf-mJR"/>
+                            <constraint firstItem="XrO-iZ-oCU" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="Wun-QI-W7H"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="w9a-gC-z33" secondAttribute="trailing" id="c12-3a-LfK"/>
+                            <constraint firstAttribute="trailing" secondItem="XrO-iZ-oCU" secondAttribute="trailing" id="dDQ-NA-G9o"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="WEe-yD-3fj" secondAttribute="bottom" id="hdh-i2-PRQ"/>
+                            <constraint firstItem="w9a-gC-z33" firstAttribute="top" secondItem="XrO-iZ-oCU" secondAttribute="bottom" constant="10" id="jLL-Kx-Sjb"/>
+                            <constraint firstItem="WEe-yD-3fj" firstAttribute="top" secondItem="w9a-gC-z33" secondAttribute="bottom" constant="10" id="yC4-jd-Db9"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="WEe-yD-3fj" id="1Po-t6-p88"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="116" y="117.39130434782609"/>
         </scene>
     </scenes>
 </document>

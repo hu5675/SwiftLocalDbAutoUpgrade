@@ -9,7 +9,7 @@
 import UIKit
 import FMDB
 
-class ZHRDB {
+open class ZHRDB {
     
     fileprivate var databaseName:String? = nil
     
